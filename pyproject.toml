@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "passwordmanager"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.scripts]
+passwordmanager = "passwordmanager.password_manager:main"
+
+[tool.poetry.dependencies]
+python = "^3.13"
+pyperclip = "^1.9.0"
+cryptography = "^43.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
