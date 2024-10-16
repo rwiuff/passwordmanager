@@ -219,3 +219,7 @@ $RECYCLE.BIN/
 *.lnk
 
 # End of https://www.toptal.com/developers/gitignore/api/visualstudiocode,windows,python
+
+passwords.json
+user_data.json
+encryption_key.key
